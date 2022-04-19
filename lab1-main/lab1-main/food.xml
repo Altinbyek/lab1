@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu>
+	<Food>
+		<Name>Цуйван</Name>
+		<Price>6000₮</Price>
+		<Desc>Мах, Гурил, Ногоо</Desc>
+		<Calories>200</Calories>
+		<Code>12</Code>
+	</Food>
+	<Food>
+		<Name>Жимсний сэт</Name>
+		<Price>9000₮</Price>
+		<Desc>Олон төрлийн жимснүүд орсон болно.</Desc>
+		<Calories>100</Calories>
+		<Code>13</Code>
+	</Food>
+	<Food>
+		<Name>Пирошки</Name>
+		<Price>2000₮</Price>
+		<Desc>Мах, гурил, олон төрлийн ногоо орсон ба таны биед тохиромжгүй бүтээгдэхүүн орсон бол хэрэглэхгүй байхыг зөвлье.</Desc>
+		<Calories>500</Calories>
+		<Code>14</Code>
+	</Food>
+	<Food>
+		<Name>Americans Food</Name>
+		<Price>8000₮</Price>
+		<Desc>Гар хийцийн исгэлэн талхаар хийсэн өтгөн зүсмэлүүд</Desc>
+		<Calories>600</Calories>
+		<Code>15</Code>
+	</Food>
+	<Food>
+		<Name>Italian source</Name>
+		<Price>4000₮</Price>
+		<Desc>Хоёр өндөг, гахайн мах эсвэл хиам, шарсан талх, бидний байнга түгээмэл хэрэглэдэг хэш бор</Desc>
+		<Calories>467</Calories>
+		<Code>16</Code>
+	</Food>
+    <Food>
+		<Name>France Food</Name>
+		<Price>5000₮</Price>
+		<Desc>Олон төрлийн орц холилдон орсон болно.</Desc>
+		<Calories>340</Calories>
+		<Code>17</Code>
+	</Food>
+    <Food>
+		<Name>Холимог Сэт</Name>
+		<Price>8000₮</Price>
+		<Desc>Мах, будаа, ногоо, жимснүүд болон гурилн бүтээгдэхүүнүүд</Desc>
+		<Calories>950</Calories>
+		<Code>18</Code>
+	</Food>
+    <Food>
+		<Name>Хоол</Name>
+		<Price>10000₮</Price>
+		<Desc>Хоёр өндөг, гахайн мах эсвэл хиам, шарсан талх, бидний байнга түгээмэл хэрэглэдэг хэш бор</Desc>
+		<Calories>1234</Calories>
+		<Code>19</Code>
+	</Food>
+</breakfast_menu>
