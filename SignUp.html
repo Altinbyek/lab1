@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Бүртгэлийн хэсэг</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<link rel='stylesheet' href='formStyle.css' type='text/css' />
+<script src="script.js"></script>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Бүртгэл үүсгэх</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">Код:</label></li>
+<li><input type="text" name="userid" size="12"  placeholder="Code" /></li>
+<li><label for="passid">Password:</label></li>
+<li><input type="password" name="passid" placeholder="Нууц үг" size="12" /></li>
+<li><label for="username">Нэр:</label></li>
+<li><input type="text" name="username" size="50" placeholder="Нэр" /></li>
+<li><label for="address">Хаяг:</label></li>
+<li><input type="text" name="address" size="50" placeholder="Хаяг" /></li>
+<li><label for="country">Улс:</label></li>
+<li><select name="country">
+<option selected="">(Та улсаа сонгоно уу!!!)</option>
+<option value="ML">Mongolia</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></li>
+
+<li><label for="email">Имайл:</label></li>
+<li><input type="text" name="email" size="50" placeholder="Email" /></li>
+<li><label id="gender" value="Male">Хүйс:</label></li>
+<li><input type="radio" name="gender" value="Male" /><span>Эрэгтэй</span></li>
+<li><input type="radio" name="gender" value="Female" /><span>Эмэгтэй</span></li>
+<li><input type="radio" name="gender" value="Other" /><span>Бусад</span></li>
+<li><label>Хэл:</label></li>
+<li><input type="checkbox" name="en" value="en" checked /><span>Англи</span></li>
+<li><input type="checkbox" name="nonen" value="noen" /><span>Өөр хэл</span></li>
+<li><label for="desc"> Өөрийн тухай:</label></li>
+<li><textarea name="desc" id="desc"></textarea></li>
+<li><input type="submit" name="submit" value="Баталгаажуулах" /></li>
+</ul>
+</form>
+</body>
+</html>

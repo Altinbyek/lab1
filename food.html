@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background-image: url(2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        table,th,td {
+         border : 1px solid black;
+         border-collapse: collapse;3
+        align-items: center;}
+        th,td {
+         padding: 5px;}
+         h1{
+            text-align: center;
+         }
+        </style>
+        <script src="food.js"></script>
+</head>
+<body>
+    <h1>Та эндээс сонголтоо хийнэ үү. Баярлалаа</h1>
+<div>
+    <div><button type="button" onclick="loadDoc()">Хоол</button></div>
+    <div  style="margin-top: -22px; margin-left: 100px;"><button type="button" onclick="drink()">Ундаа</button></div>
+    <div style="margin-top: -22px; margin-left: 200px;"><button  type="button" onclick="clear1()">Цэвэрлэх</button></div>
+</div>
+<h1>Хоолнуудын болон Уух зүйлсийн жагсаалт</h1>
+<br><br>
+    <table id="demo"></table>
+    <table id="nemeh"></table>
+    <br> <br>
+    <div id="name">
+        <form name="ZahialgaUguh" onsubmit="return zahialgaUguh();">
+        <label for="zahilagaUguh">Захиалга өгөх:</label>
+        <input type="number" size="6" name="zhlga" placeholder="Захиалгын код оруулна уу.">
+        <button name="zhlga_uguh" onclick="zahialgaUguh()">Захиалга өгөх</button>
+        <br> <br>
+        <label for="zahilagaUguh">Захиалга нэмэх:</label>
+        <input type="number" size="6" name="zhlga" placeholder="Захиалгын код оруулна уу.">
+        <button name="zhlga_uguh" onclick="zahialgaUguh()">Захиалга нэмэх</button>
+        <br> <br>
+        <label for="zahilagaUguh">Захиалга хасах:</label>
+        <input type="number" size="6" name="zhlga" placeholder="Захиалгын код оруулна уу.">
+        <button name="zhlga_uguh" onclick="zahialgaUguh()">Захиалга хасах</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu>
+	<Drinks>
+		<Name>Coca Cola</Name>
+		<Price>3500₮</Price>
+		<Size>2L</Size>
+		<Code>1</Code>
+	</Drinks>
+	<Drinks>
+		<Name>Sprite</Name>
+		<Price>3400₮</Price>
+		<Size>2L</Size>
+		<Code>2</Code>
+	</Drinks>
+	<Drinks>
+		<Name>Fanta</Name>
+		<Price>3500₮</Price>
+		<Size>2L</Size>
+		<Code>3</Code>
+	</Drinks>
+	<Drinks>
+		<Name>Жүрж</Name>
+		<Price>4500₮</Price>
+		<Size>2.5L</Size>
+		<Code>4</Code>
+	</Drinks>
+	<Drinks>
+		<Name>Fuse Tea</Name>
+		<Price>2500₮</Price>
+		<Size>1.5L</Size>
+		<Code>5</Code>
+	</Drinks>
+    <Drinks>
+		<Name>Punch</Name>
+		<Price>1200₮</Price>
+		<Size>1L</Size>
+		<Code>6</Code>
+	</Drinks>
+    <Drinks>
+		<Name>Coca Cola</Name>
+		<Price>1200₮</Price>
+		<Size>1L</Size>
+		<Code>7</Code>
+	</Drinks>
+    <Drinks>
+		<Name>Sprite</Name>
+		<Price>1200₮</Price>
+		<Size>1L</Size>
+		<Code>8</Code>
+	</Drinks>
+</breakfast_menu>
